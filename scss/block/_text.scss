@@ -1,0 +1,17 @@
+.text{
+    margin: 80px 0 80px 0;
+}
+
+.text__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.text__text{
+    color: var(--black_txt, #B9C0C1);
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    font-weight: 600;
+}

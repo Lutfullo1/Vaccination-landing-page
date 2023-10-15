@@ -1,0 +1,61 @@
+.schedule__btn{
+    border: none;
+    border-radius: 10px;
+    background: #FE4610;    
+    box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.06);
+    padding: 15px 52px;
+    color: #FFF;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+
+.schedule__cards{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.06);
+    padding: 33px 25px;
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+.label{
+    color: #001f29;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 17px;
+
+    &::before{
+        content: "";
+        width: 40px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-image: url('../../img/shcedule-icon.svg');
+        display: inline-block;
+    }
+}
+
+.input{
+    border-radius: 10px;
+    background-color: #fafafa;
+    padding: 16px;
+    outline: none;
+    border: none;
+    max-width: 225px; 
+    width: 100%;
+    display: block;
+    margin-left: 56px; 
+}
+
+.list{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 57px;
+}

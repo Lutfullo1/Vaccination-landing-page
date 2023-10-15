@@ -1,0 +1,104 @@
+.home{
+    margin-top: 93px;
+}
+
+.home__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__content{
+    max-width: 367px;
+}
+
+.home__title{
+    color:  #001F29;
+    font-family: 'Ubuntu';
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 64px; 
+    margin-bottom: 16px;
+}
+
+.home__text{
+    color: #B9C0C1;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.home__btn1{
+    width: 168px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background: #FE4610;
+    padding: 15px 22px;
+    color: #FFF;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.home__btn2{
+    width: 142px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #F75532;
+    background: transparent;
+    color: #F75532;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.home__cards{
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    margin-top: 41px;
+}
+
+.home__card{
+    padding: 33px 33px 33px 111px;
+    text-align: right;
+    max-width: 345px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.06);
+}
+
+.home__card_title{
+    color:#001F29;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.home__card_text{
+    color:#B9C0C1;
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.home__card_btn{
+    width: 123px;
+    height: 40px;
+    padding: 12px 24px;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #F75532;
+    background: transparent;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 40px;
+}

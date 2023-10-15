@@ -1,0 +1,44 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 34px;
+}
+
+.header__logo_link{
+    margin-right: auto;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+}
+
+.header__item{
+    margin-right: 40px;
+}
+
+.header__link{
+    color:  #001F29;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.active{
+    color: #F75532;
+}
+
+.header__btn{
+    color: #FFF;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 400;
+    background: #FE4610;
+    padding: 15px 28px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
